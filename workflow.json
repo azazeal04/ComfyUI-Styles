@@ -1,6 +1,6 @@
 {
-  "last_node_id": 216,
-  "last_link_id": 628,
+  "last_node_id": 224,
+  "last_link_id": 658,
   "nodes": [
     {
       "id": 170,
@@ -23,7 +23,7 @@
           "name": "text_positive",
           "type": "STRING",
           "links": [
-            578
+            638
           ],
           "shape": 3,
           "slot_index": 0
@@ -32,7 +32,7 @@
           "name": "text_negative",
           "type": "STRING",
           "links": [
-            579
+            639
           ],
           "shape": 3,
           "slot_index": 1
@@ -71,7 +71,6 @@
           "name": "VAE",
           "type": "VAE",
           "links": [
-            228,
             571
           ],
           "shape": 3,
@@ -217,13 +216,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
           "name": "text",
           "type": "STRING",
-          "link": 628,
+          "link": null,
           "widget": {
             "name": "text",
             "config": [
@@ -254,649 +253,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 191,
-      "type": "TravelPosterStyler",
-      "pos": [
-        1368,
-        47
-      ],
-      "size": {
-        "0": 329,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 35,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 592,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 593,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            607,
-            609,
-            628
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            606,
-            608
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "TravelPosterStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 184,
-      "type": "AestheticStyler",
-      "pos": [
-        960,
-        45
-      ],
-      "size": {
-        "0": 331,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 578,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 579,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            580
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            581
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AestheticStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 185,
-      "type": "AnimeStyler",
-      "pos": [
-        958,
-        229
-      ],
-      "size": {
-        "0": 335,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 580,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 581,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            583
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            582
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AnimeStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 186,
-      "type": "FantasyStyler",
-      "pos": [
-        954,
-        416
-      ],
-      "size": {
-        "0": 330,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 24,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 583,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 582,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            585
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            584
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FantasyStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No Option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 187,
-      "type": "GothicStyler",
-      "pos": [
-        953,
-        601
-      ],
-      "size": {
-        "0": 340,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 585,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 584,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            586
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            587
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "GothicStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 194,
-      "type": "LineArtStyler",
-      "pos": [
-        1362,
-        423
-      ],
-      "size": {
-        "0": 340,
-        "1": 103
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 33,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 588,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 589,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            590
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            591
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LineArtStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 190,
-      "type": "PunkStyler",
-      "pos": [
-        1371,
-        238
-      ],
-      "size": {
-        "0": 333,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 34,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 590,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 591,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            592
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            593
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PunkStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 189,
-      "type": "MoviePosterStyler",
-      "pos": [
-        1361,
-        602
-      ],
-      "size": {
-        "0": 338,
-        "1": 102
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text_positive",
-          "type": "STRING",
-          "link": 586,
-          "widget": {
-            "name": "text_positive",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        },
-        {
-          "name": "text_negative",
-          "type": "STRING",
-          "link": 587,
-          "widget": {
-            "name": "text_negative",
-            "config": [
-              "STRING",
-              {
-                "default": "",
-                "multiline": true
-              }
-            ]
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "positive_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            588
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "negative_prompt_text_g",
-          "type": "STRING",
-          "links": [
-            589
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "MoviePosterStyler"
-      },
-      "widgets_values": [
-        "",
-        "",
-        "No option",
-        "No"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
       "id": 155,
       "type": "CLIPTextEncode",
       "pos": [
@@ -920,7 +276,7 @@
           "type": "CLIP"
         },
         {
-          "link": 608,
+          "link": 658,
           "name": "text",
           "type": "STRING",
           "widget": {
@@ -973,7 +329,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 37,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -982,7 +338,7 @@
           "type": "CLIP"
         },
         {
-          "link": 609,
+          "link": 657,
           "name": "text",
           "type": "STRING",
           "widget": {
@@ -1044,7 +400,7 @@
           "type": "CLIP"
         },
         {
-          "link": 606,
+          "link": 656,
           "name": "text",
           "type": "STRING",
           "widget": {
@@ -1098,7 +454,7 @@
         "collapsed": false,
         "pinned": true
       },
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1107,7 +463,7 @@
           "type": "CLIP"
         },
         {
-          "link": 607,
+          "link": 655,
           "name": "text",
           "type": "STRING",
           "widget": {
@@ -1160,7 +516,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1210,7 +566,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -1261,7 +617,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 17,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -1299,7 +655,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 14,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -1337,7 +693,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 15,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -1375,7 +731,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 13,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -1413,7 +769,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 23,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -1451,7 +807,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 20,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1489,7 +845,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 19,
+      "order": 20,
       "mode": 0,
       "inputs": [
         {
@@ -1537,7 +893,7 @@
           "type": "LATENT"
         },
         {
-          "link": 228,
+          "link": 637,
           "name": "vae",
           "type": "VAE"
         }
@@ -1578,7 +934,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 5,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -1825,7 +1181,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 6,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -1923,7 +1279,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 7,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1970,7 +1326,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 16,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -2008,7 +1364,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 22,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -2354,7 +1710,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -2577,7 +1933,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 8,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2609,58 +1965,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 177,
-      "type": "Random Number",
-      "pos": [
-        2186,
-        53
-      ],
-      "size": {
-        "0": 315,
-        "1": 194
-      },
-      "flags": {
-        "pinned": true
-      },
-      "order": 9,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "NUMBER",
-          "type": "NUMBER",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            567
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Random Number"
-      },
-      "widgets_values": [
-        "float",
-        0,
-        100,
-        323394922980088,
-        "randomize"
-      ],
-      "color": "#222",
-      "bgcolor": "#000"
-    },
-    {
       "id": 204,
       "type": "Reroute",
       "pos": [
@@ -2674,7 +1978,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 27,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -2713,7 +2017,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 25,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -2728,7 +2032,8 @@
           "type": "VAE",
           "links": [
             618,
-            619
+            619,
+            637
           ],
           "slot_index": 0
         }
@@ -2752,7 +2057,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 26,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -2790,7 +2095,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2828,7 +2133,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 21,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -2860,10 +2165,10 @@
         1184,
         -120
       ],
-      "size": [
-        256.57971409433594,
-        58
-      ],
+      "size": {
+        "0": 256.5797119140625,
+        "1": 58
+      },
       "flags": {
         "pinned": false
       },
@@ -2886,10 +2191,10 @@
         -10,
         -228
       ],
-      "size": [
-        416.30449523258744,
-        172.47468641411518
-      ],
+      "size": {
+        "0": 416.30450439453125,
+        "1": 172.4746856689453
+      },
       "flags": {
         "pinned": true
       },
@@ -2903,17 +2208,703 @@
       ],
       "color": "#233",
       "bgcolor": "#355"
+    },
+    {
+      "id": 177,
+      "type": "Random Number",
+      "pos": [
+        2189,
+        52
+      ],
+      "size": {
+        "0": 315,
+        "1": 194
+      },
+      "flags": {
+        "pinned": true
+      },
+      "order": 12,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "NUMBER",
+          "type": "NUMBER",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            567
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Random Number"
+      },
+      "widgets_values": [
+        "float",
+        0,
+        100,
+        323394922980088,
+        "randomize"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 222,
+      "type": "Movie Poster_Styler",
+      "pos": [
+        1322,
+        413
+      ],
+      "size": [
+        304,
+        134.00000381469727
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 648,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 649,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            651
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            652
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Movie Poster_Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 221,
+      "type": "Line Art Styler",
+      "pos": [
+        970,
+        412
+      ],
+      "size": [
+        304,
+        133.99996948242188
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 642,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 643,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            644
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            645
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Line Art Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 219,
+      "type": "Fantasy Styler",
+      "pos": [
+        965,
+        223
+      ],
+      "size": [
+        308.9120788844443,
+        134.00000381469727
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 640,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 641,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            642
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            643
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Fantasy Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 220,
+      "type": "Gothic Styler",
+      "pos": [
+        1322,
+        218
+      ],
+      "size": [
+        304,
+        134.00000381469727
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 651,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 652,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            653
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            654
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Gothic Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 223,
+      "type": "Punk Style",
+      "pos": [
+        964,
+        596
+      ],
+      "size": [
+        304,
+        133.9999542236328
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 644,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 645,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            646
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            647
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Punk Style"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 224,
+      "type": "Travel Poster Styler",
+      "pos": [
+        1320,
+        602
+      ],
+      "size": [
+        304,
+        133.99998474121094
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 646,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 647,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            648
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            649
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Travel Poster Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 218,
+      "type": "Anime Styler",
+      "pos": [
+        1325,
+        39
+      ],
+      "size": [
+        304,
+        134.0000114440918
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 653,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 654,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            655,
+            657
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            656,
+            658
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Anime Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 217,
+      "type": "Aesthetic Styler",
+      "pos": [
+        964,
+        38
+      ],
+      "size": [
+        311.83583153888503,
+        136.31080689096063
+      ],
+      "flags": {
+        "pinned": true
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "link": 638,
+          "widget": {
+            "name": "text_positive",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        },
+        {
+          "name": "text_negative",
+          "type": "STRING",
+          "link": 639,
+          "widget": {
+            "name": "text_negative",
+            "config": [
+              "STRING",
+              {
+                "default": "",
+                "multiline": true
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            640
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            641
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Aesthetic Styler"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "None",
+        "No"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
     }
   ],
   "links": [
-    [
-      228,
-      75,
-      0,
-      8,
-      1,
-      "VAE"
-    ],
     [
       277,
       91,
@@ -3099,134 +3090,6 @@
       "*"
     ],
     [
-      578,
-      170,
-      0,
-      184,
-      0,
-      "STRING"
-    ],
-    [
-      579,
-      170,
-      1,
-      184,
-      1,
-      "STRING"
-    ],
-    [
-      580,
-      184,
-      0,
-      185,
-      0,
-      "STRING"
-    ],
-    [
-      581,
-      184,
-      1,
-      185,
-      1,
-      "STRING"
-    ],
-    [
-      582,
-      185,
-      1,
-      186,
-      1,
-      "STRING"
-    ],
-    [
-      583,
-      185,
-      0,
-      186,
-      0,
-      "STRING"
-    ],
-    [
-      584,
-      186,
-      1,
-      187,
-      1,
-      "STRING"
-    ],
-    [
-      585,
-      186,
-      0,
-      187,
-      0,
-      "STRING"
-    ],
-    [
-      586,
-      187,
-      0,
-      189,
-      0,
-      "STRING"
-    ],
-    [
-      587,
-      187,
-      1,
-      189,
-      1,
-      "STRING"
-    ],
-    [
-      588,
-      189,
-      0,
-      194,
-      0,
-      "STRING"
-    ],
-    [
-      589,
-      189,
-      1,
-      194,
-      1,
-      "STRING"
-    ],
-    [
-      590,
-      194,
-      0,
-      190,
-      0,
-      "STRING"
-    ],
-    [
-      591,
-      194,
-      1,
-      190,
-      1,
-      "STRING"
-    ],
-    [
-      592,
-      190,
-      0,
-      191,
-      0,
-      "STRING"
-    ],
-    [
-      593,
-      190,
-      1,
-      191,
-      1,
-      "STRING"
-    ],
-    [
       596,
       4,
       1,
@@ -3305,38 +3168,6 @@
       91,
       0,
       "CLIP"
-    ],
-    [
-      606,
-      191,
-      1,
-      7,
-      1,
-      "STRING"
-    ],
-    [
-      607,
-      191,
-      0,
-      6,
-      1,
-      "STRING"
-    ],
-    [
-      608,
-      191,
-      1,
-      155,
-      1,
-      "STRING"
-    ],
-    [
-      609,
-      191,
-      0,
-      154,
-      1,
-      "STRING"
     ],
     [
       610,
@@ -3483,11 +3314,171 @@
       "VAE"
     ],
     [
-      628,
-      191,
+      637,
+      202,
       0,
-      168,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      638,
+      170,
       0,
+      217,
+      0,
+      "STRING"
+    ],
+    [
+      639,
+      170,
+      1,
+      217,
+      1,
+      "STRING"
+    ],
+    [
+      640,
+      217,
+      0,
+      219,
+      0,
+      "STRING"
+    ],
+    [
+      641,
+      217,
+      1,
+      219,
+      1,
+      "STRING"
+    ],
+    [
+      642,
+      219,
+      0,
+      221,
+      0,
+      "STRING"
+    ],
+    [
+      643,
+      219,
+      1,
+      221,
+      1,
+      "STRING"
+    ],
+    [
+      644,
+      221,
+      0,
+      223,
+      0,
+      "STRING"
+    ],
+    [
+      645,
+      221,
+      1,
+      223,
+      1,
+      "STRING"
+    ],
+    [
+      646,
+      223,
+      0,
+      224,
+      0,
+      "STRING"
+    ],
+    [
+      647,
+      223,
+      1,
+      224,
+      1,
+      "STRING"
+    ],
+    [
+      648,
+      224,
+      0,
+      222,
+      0,
+      "STRING"
+    ],
+    [
+      649,
+      224,
+      1,
+      222,
+      1,
+      "STRING"
+    ],
+    [
+      651,
+      222,
+      0,
+      220,
+      0,
+      "STRING"
+    ],
+    [
+      652,
+      222,
+      1,
+      220,
+      1,
+      "STRING"
+    ],
+    [
+      653,
+      220,
+      0,
+      218,
+      0,
+      "STRING"
+    ],
+    [
+      654,
+      220,
+      1,
+      218,
+      1,
+      "STRING"
+    ],
+    [
+      655,
+      218,
+      0,
+      6,
+      1,
+      "STRING"
+    ],
+    [
+      656,
+      218,
+      1,
+      7,
+      1,
+      "STRING"
+    ],
+    [
+      657,
+      218,
+      0,
+      154,
+      1,
+      "STRING"
+    ],
+    [
+      658,
+      218,
+      1,
+      155,
+      1,
       "STRING"
     ]
   ],

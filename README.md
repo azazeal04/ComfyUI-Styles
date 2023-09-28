@@ -27,7 +27,7 @@ Has about 50 Punk art styles.
 Travel_Poster_Styler:
 Has about 50 Travel Poster art styles.
 
-![Screenshot_70](https://github.com/azazeal04/ComfyUI-Styles/assets/132445160/fb37488f-6bcd-4e0c-a83e-5515792e3b7b)
+![Screenshot_74](https://github.com/azazeal04/ComfyUI-Styles/assets/132445160/9a94a363-d000-491b-81d3-827ed5c96008)
 
 
 Installation:

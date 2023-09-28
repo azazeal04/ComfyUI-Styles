@@ -27,6 +27,9 @@ Has about 50 Punk art styles.
 Travel_Poster_Styler:
 Has about 50 Travel Poster art styles.
 
+![Screenshot_70](https://github.com/azazeal04/ComfyUI-Styles/assets/132445160/fb37488f-6bcd-4e0c-a83e-5515792e3b7b)
+
+
 Installation:
 Open the archive and copy each of the style folders, within the archive, directly into your custom_nodes folder.
 After the folders are placed inside the custom_nodes folder of your ComfyUI, start up the ComfyUI server and the nodes will be installed.

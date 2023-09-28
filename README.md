@@ -31,8 +31,7 @@ Has about 50 Travel Poster art styles.
 
 
 Installation:
-Open the archive and copy each of the style folders, within the archive, directly into your custom_nodes folder.
-After the folders are placed inside the custom_nodes folder of your ComfyUI, start up the ComfyUI server and the nodes will be installed.
+Just ectract the archive into your ComfyUI custom_nodes folder and restart ComfyUI
 
 How to use:
 When you want to add the nodes to your workflow, right click inside the workspace, select add node and there you will find the nodes under Azazeal.
@@ -40,3 +39,5 @@ Alternatively you can load the workflow included in the workflow by dragging and
 
 If you are interested to support me by buying a coffee
 https://www.buymeacoffee.com/azazeal04g
+
+Big thank you to Suzie for helping me to sort out the install file for the nodes!!

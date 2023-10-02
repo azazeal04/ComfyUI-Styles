@@ -5,6 +5,16 @@
         "negative_prompt": ""
     },
     {
+        "name": "Abstract Cubism",
+        "prompt": "(Create an abstract cubist pencil artwork) {prompt}",
+        "negative_prompt": "Clear and defined lines"
+    },
+    {
+        "name": "Abstract Expressionism",
+        "prompt": "(Produce an abstract expressionist pencil piece) {prompt}",
+        "negative_prompt": "Precise and controlled"
+    },
+    {
         "name": "Abstract Geometric Shapes",
         "prompt": "(Design an abstract line-art pattern using geometric shapes) {prompt}",
         "negative_prompt": "Organic and fluid"
@@ -23,6 +33,11 @@
         "name": "Abstract Line Meditation",
         "prompt": "(Practice a guided meditation inspired by abstract line-art) {prompt}",
         "negative_prompt": "Structured yoga session"
+    },
+    {
+        "name": "Art Nouveau",
+        "prompt": "(Produce an art nouveau-style pencil drawing) {prompt}",
+        "negative_prompt": "Art Deco"
     },
     {
         "name": "Abstract Line Poetry",
@@ -60,6 +75,36 @@
         "negative_prompt": "Colorful botanical garden illustration"
     },
     {
+        "name": "Cave Art",
+        "prompt": "(Design a cave art-style pencil artwork) {prompt}",
+        "negative_prompt": "Highly detailed art"
+    },
+    {
+        "name": "Charcoal Sketch",
+        "prompt": "(Create a charcoal-style pencil sketch) {prompt}",
+        "negative_prompt": "Ink drawing"
+    },
+    {
+        "name": "Chiaroscuro",
+        "prompt": "(Produce a chiaroscuro-style pencil drawing) {prompt}",
+        "negative_prompt": "Even lighting"
+    },
+    {
+        "name": "Collage Art",
+        "prompt": "(Generate a collage-style pencil artwork) {prompt}",
+        "negative_prompt": "Single-medium art"
+    },
+    {
+        "name": "Contour Drawing",
+        "prompt": "(Design a contour pencil drawing) {prompt}",
+        "negative_prompt": "Fully shaded"
+    },
+    {
+        "name": "Cubism",
+        "prompt": "(Create a cubist-style pencil drawing) {prompt}",
+        "negative_prompt": "Smooth and continuous"
+    },
+    {
         "name": "Fantasy Line Creature",
         "prompt": "(Design a line-art fantasy creature) {prompt}",
         "negative_prompt": "Fantasy creature in full color"
@@ -80,9 +125,24 @@
         "negative_prompt": "Traditional marble statue"
     },
     {
+        "name": "Hard-Edge Painting",
+        "prompt": "(Create a hard-edge painting style pencil artwork) {prompt}",
+        "negative_prompt": "Soft and blurred edges"
+    },
+    {
+        "name": "Hatching and Cross-Hatching",
+        "prompt": "(Design a pencil artwork using hatching and cross-hatching techniques) {prompt}",
+        "negative_prompt": "Smooth shading"
+    },
+    {
         "name": "Intricate Mandala",
         "prompt": "(Create an intricate line-art mandala) {prompt}",
         "negative_prompt": "Simple circle drawing"
+    },
+    {
+        "name": "Kinetic Art",
+        "prompt": "(Design a kinetic art-inspired pencil artwork) {prompt}",
+        "negative_prompt": "Static and motionless"
     },
     {
         "name": "Line Art Calligraphy",
@@ -200,6 +260,26 @@
         "negative_prompt": "Mythological creature in full color"
     },
     {
+        "name": "Op Art",
+        "prompt": "(Create an op art-inspired pencil drawing) {prompt}",
+        "negative_prompt": "Realistic depiction"
+    },
+    {
+        "name": "Opulent Art",
+        "prompt": "(Create an opulent art style pencil artwork) {prompt}",
+        "negative_prompt": "Spartan and simple"
+    },
+    {
+        "name": "Pop Art",
+        "prompt": "(Design a pop art-inspired pencil artwork) {prompt}",
+        "negative_prompt": "Traditional art"
+    },
+    {
+        "name": "Rococo",
+        "prompt": "(Produce a rococo-style pencil drawing) {prompt}",
+        "negative_prompt": "Baroque art"
+    },
+    {
         "name": "Sci-Fi Line Cityscape",
         "prompt": "(Create a line-art cityscape of a futuristic metropolis) {prompt}",
         "negative_prompt": "Realistic urban landscape painting"
@@ -219,11 +299,25 @@
         "prompt": "(Create a line-art illustration of a forest scene) {prompt}",
         "negative_prompt": "Detailed and realistic"
     },
-
+    {
+        "name": "Tachisme",
+        "prompt": "(Produce a tachisme pencil artwork) {prompt}",
+        "negative_prompt": "Controlled and precise"
+    },
+    {
+        "name": "Tonal Drawing",
+        "prompt": "(Produce a tonal pencil artwork) {prompt}",
+        "negative_prompt": "Colorful illustration"
+    },
     {
         "name": "Tribal Tattoo Design",
         "prompt": "(Design a line-art tribal tattoo pattern) {prompt}",
         "negative_prompt": "Watercolor tattoo design"
+    },
+    {
+        "name": "Trompe-l'oeil",
+        "prompt": "(Generate a trompe-l'oeil pencil artwork) {prompt}",
+        "negative_prompt": "Flat and two-dimensional"
     },
     {
         "name": "Vehicle Technical Drawing",

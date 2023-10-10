@@ -21,7 +21,6 @@ This section details the updates and new features committed over time, organized
 * **Enhanced Error Handling:** Improved error handling for file reading, data validity, and template replacement functions.
 
 
-```
 
 ### Installation
 
